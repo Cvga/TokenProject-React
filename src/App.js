@@ -4,10 +4,7 @@ import MyTokenSale from "./contracts/MyTokenSale.json";
 import KycContract from "./contracts/KycContract.json";
 import getWeb3 from "./getWeb3";
 import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Link
+  BrowserRouter as Link,
 } from 'react-router-dom';
 
 import "./App.css";
