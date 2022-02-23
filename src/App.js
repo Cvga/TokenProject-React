@@ -89,7 +89,8 @@ class App extends Component {
         Address to allow: <input type="text" name="kycAddress" value={this.state.kycAddress} onChange={this.handleInputChange} />
         <button type="button" onClick={this.handleKycSubmit}>Add Address to Whitelist to be Approved</button>
         <h2>Buy Maya-Tokens</h2>
-        <p>Send Ether to this address: {this.state.tokenSaleAddress}</p>
+        <p>Contract address: {this.state.tokenSaleAddress}</p>
+        <p>You can go on this link to check the contract https://ropsten.etherscan.io/address/0x03489e112b65C091d1b697A9cCc2053Aad4c3760</p>
         <p>You have: <b>{this.state.userTokens} Maya Token</b></p>
         <button type="button" onClick={this.handleBuyToken}>Buy more tokens</button>
       </div>
