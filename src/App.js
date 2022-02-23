@@ -90,7 +90,7 @@ class App extends Component {
         <button type="button" onClick={this.handleKycSubmit}>Add Address to Whitelist to be Approved</button>
         <h2>Buy Maya-Tokens</h2>
         <p>Contract address: {this.state.tokenSaleAddress}</p>
-        <p>You can go on this link to check the contract:<a href='https://ropsten.etherscan.io/address/0x03489e112b65C091d1b697A9cCc2053Aad4c3760'></a></p>
+        <p>You can go on this link to check the contract:<b>https://ropsten.etherscan.io/address/0x03489e112b65C091d1b697A9cCc2053Aad4c3760</b></p>
         <p>You have: <b>{this.state.userTokens} Maya Token</b></p>
         <button type="button" onClick={this.handleBuyToken}>Buy more tokens</button>
       </div>
