@@ -3,9 +3,6 @@ import MyToken from "./contracts/MyToken.json";
 import MyTokenSale from "./contracts/MyTokenSale.json";
 import KycContract from "./contracts/KycContract.json";
 import getWeb3 from "./getWeb3";
-import {
-  BrowserRouter as Link,
-} from 'react-router-dom';
 
 import "./App.css";
 
@@ -94,7 +91,7 @@ class App extends Component {
         <h2>Buy Maya-Tokens</h2>
         <p>Contract address: <b>{this.state.tokenSaleAddress}</b></p>
         <p>Address to import the custom tokens: <b>0xa9d482F6125D3937b8bEE96Cf0E2F777e114d2E4</b></p>
-        <p>You can go on this link to check the Smart Contract on the blockchain: <b>https://ropsten.etherscan.io/address/0x03489e112b65C091d1b697A9cCc2053Aad4c3760</b>></p>
+        <p>You can go on this link to check the Smart Contract on the blockchain: <b>https://ropsten.etherscan.io/address/0x03489e112b65C091d1b697A9cCc2053Aad4c3760</b></p>
         <p>You have: <b>{this.state.userTokens} Maya Token</b></p>
         <button type="button" onClick={this.handleBuyToken}>Buy more tokens</button>
       </div>
