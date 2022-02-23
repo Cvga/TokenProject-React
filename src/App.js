@@ -88,7 +88,7 @@ class App extends Component {
         <h2>Enable your account to be Whitelisted (Only Owner of this contract)</h2>
         Address to allow: <input type="text" name="kycAddress" value={this.state.kycAddress} onChange={this.handleInputChange} />
         <button type="button" color= "#4ca6fe" onClick={this.handleKycSubmit}>Add Address to Whitelist to be Approved</button>
-        <h2 style={{color:"lightblue"}}>Buy Maya-Tokens</h2>
+        <h2 style={{color:"blue"}}>Buy Maya-Tokens</h2>
         <p>Contract address: <b>{this.state.tokenSaleAddress}</b></p>
         <p>Address to import the custom tokens: <b>0xa9d482F6125D3937b8bEE96Cf0E2F777e114d2E4</b></p>
         <h2 style={{color: "red"}}>You can go on the below link to check the Smart Contract on the blockchain: </h2>
